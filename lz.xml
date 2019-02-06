@@ -60,7 +60,7 @@
 </node>
 <node id="ift-node3-mp.testonline.sberbank.ru" description="Стенд ИФТ блок 3 (мобильный)">
 <bonusBalance>true</bonusBalance>
-<dashboard>true</dashboard>
+  <dashboard>true</dashboard>
 <offers>true</offers>
 <charityPLSpasibo>true</charityPLSpasibo>
 <distanceToNearestSalesPoint>true</distanceToNearestSalesPoint>
@@ -8040,6 +8040,17 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 </param>
 <param name="PushPermissions" description="единый стек параметров для push">
 <type>list</type>
+  <pushHistoryHeadBatchSize>30</pushHistoryHeadBatchSize> 
+<pushHistoryScrollBatchSize>15</pushHistoryScrollBatchSize>
+<type>list</type>
+<nodes>
+<node id="mobile.sberbank.ru">
+<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
+<forcedHistoryQuery>false</forcedHistoryQuery> 
+<forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory> 
+</node>
+</nodes>
+</param>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
