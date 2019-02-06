@@ -8252,7 +8252,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <showUniversalPushNotification>true</showUniversalPushNotification>
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
 <forcedHistoryQuery>false</forcedHistoryQuery> 
-<forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory> 
+<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory> 
 <nativePushProcessingEnabled>true</nativePushProcessingEnabled>
 <webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 <cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
