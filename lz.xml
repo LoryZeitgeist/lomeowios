@@ -60,7 +60,7 @@
 </node>
 <node id="ift-node3-mp.testonline.sberbank.ru" description="Стенд ИФТ блок 3 (мобильный)">
 <bonusBalance>true</bonusBalance>
-  <dashboard>true</dashboard>
+<dashboard>true</dashboard>
 <offers>true</offers>
 <charityPLSpasibo>true</charityPLSpasibo>
 <distanceToNearestSalesPoint>true</distanceToNearestSalesPoint>
@@ -7595,7 +7595,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 </nodes>
 </param>
 <param name="BiometricsLivenessChecks" description="Настройки проверок на человечность в биометрических процессах">
-<enabled>true</enabled>
+<enabled>false</enabled>
 <processes>
 <process name="ConfirmationBiometrics">
 <enabled>true</enabled>
@@ -8040,17 +8040,6 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 </param>
 <param name="PushPermissions" description="единый стек параметров для push">
 <type>list</type>
-  <pushHistoryHeadBatchSize>30</pushHistoryHeadBatchSize> 
-<pushHistoryScrollBatchSize>15</pushHistoryScrollBatchSize>
-<type>list</type>
-<nodes>
-<node id="mobile.sberbank.ru">
-<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled> 
-<forcedHistoryQuery>false</forcedHistoryQuery> 
-<forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory> 
-</node>
-</nodes>
-</param>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8365,7 +8354,6 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<param>
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
@@ -8793,7 +8781,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
-<FullTariffTurnOffEnabled>false</FullTariffTurnOffEnabled>
+<FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
 <ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="194.186.207.23">
@@ -9362,7 +9350,7 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <TelecomWidgetLimitsTabEnabled>true</TelecomWidgetLimitsTabEnabled>
 </node>
 <node id="mobile.sberbank.ru">
-<TelecomHost>https://api.sberbank-tele.com/v2/</TelecomHost>
+<TelecomHost>https://api-test.sberbank-tele.com/v2/</TelecomHost>
 <TelecomWidgetLimitsTabEnabled>true</TelecomWidgetLimitsTabEnabled>
 </node>
 </nodes>
@@ -9516,6 +9504,60 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/oferta_western_union.pdf
 <param name="gsHideProducts" description="Полное скрытие карт">
 <type>setting</type>
 <enabled>true</enabled>
+</param>
+<param name="TariffDebitCard" description="Тариф карты">
+<type>service</type>
+<enabled>true</enabled>
+<link>
+https://stat.online.sberbank.ru/PhizIC-res/mapicfg/card_tariffs.xml
+</link>
+<nodes>
+<node id="node0.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node1.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node2.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node3.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node4.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="greenfield1.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="greenfield2.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="mobile.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node1.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node2.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="psinode2.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="psinode1.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="194.186.207.23">
+<enabled>true</enabled>
+</node>
+</nodes>
 </param>
 </params>
 </configuration>
