@@ -8089,7 +8089,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
-<>true</showUniversalPushNotification>
+<showUniversalPushNotification>true</showUniversalPushNotification>
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
 <nativePushProcessingEnabled>true</nativePushProcessingEnabled>
 <webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
