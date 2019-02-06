@@ -8040,6 +8040,9 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 </param>
 <param name="PushPermissions" description="единый стек параметров для push">
 <type>list</type>
+ <pushHistoryHeadBatchSize>30</pushHistoryHeadBatchSize> 
+<pushHistoryScrollBatchSize>15</pushHistoryScrollBatchSize>
+<type>list</type>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8248,6 +8251,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showUniversalPushNotification>true</showUniversalPushNotification>
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
+<forcedHistoryQuery>false</forcedHistoryQuery> 
+<forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory> 
 <nativePushProcessingEnabled>true</nativePushProcessingEnabled>
 <webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 <cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
