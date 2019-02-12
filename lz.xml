@@ -5409,7 +5409,9 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 </node>
 </nodes>
 </param>
-<param name="StaticSourceMerchantPics" description="статресурс для логотипов">
+<param name="StaticSourceMerchantPics" description="">
+<link>https://pfm-stat/PFM/logs/</link>
+</param>
 <type>source</type>
 <link>https://pfm-stat.online.sberbank.ru/PFM/logos/</link>
 </param>
