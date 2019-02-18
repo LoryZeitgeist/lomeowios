@@ -8067,7 +8067,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
-<UsePushAutoDisable>true</UsePushAutoDisable>
+<UsePushAutoDisable>false</UsePushAutoDisable>
 <reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
