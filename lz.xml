@@ -8239,7 +8239,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 </node>
 <node id="mobile.sberbank.ru">
-  <pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
+<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords> 
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
