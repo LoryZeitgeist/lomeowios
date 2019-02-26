@@ -5410,7 +5410,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 </nodes>
 </param>
 <param name="StaticSourceMerchantPics" description="">
-<link>https://pfm-stat.online.sberbank.ru/PFM/logos/</link>
+<link>https://pfm-stat.sberbank.ru/PFM/logos/</link>
 </param>
 <type>source</type>
 <link>https://pfm-stat.online.sberbank.ru/PFM/logos/</link>
