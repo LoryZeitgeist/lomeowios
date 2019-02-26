@@ -5464,6 +5464,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <type>setting</type>
 <enabled>true</enabled>
 </param>
+ 
 <param name="WelfareProductsDetails" description="Карточки продуктов благосостояния (детализация продукта)">
 <type>setting</type>
 <enabled>true</enabled>
