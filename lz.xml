@@ -8309,7 +8309,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 <cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-<pushLogoTypeUsing>true</pushLogoTypeUsing>
+<pushLogoTypeUsing>false</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
 <reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -8333,7 +8333,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 <cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
-<pushLogoTypeUsing>true</pushLogoTypeUsing>
+<pushLogoTypeUsing>false</pushLogoTypeUsing>
 <UsePushAutoDisable>true</UsePushAutoDisable>
 <reactivateMainPushNotifications>true</reactivateMainPushNotifications>
 <hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
@@ -9443,130 +9443,4 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/oferta_western_union.pdf
 <isShortFraudScreen>true</isShortFraudScreen>
 <isLongFraudScreen>false</isLongFraudScreen>
 </param>
-<param name="SelfEmployedV2" description="Сервис самозанятые">
-<type>service</type>
-<enabled>true</enabled>
-<assignService>true</assignService>
-<unassignService>true</unassignService>
-<incomesListService>true</incomesListService>
-<deleteIncomeService>true</deleteIncomeService>
-<addIncomeService>true</addIncomeService>
-</param>
-<param name="PersonalizationDDP" description="Персонализация от сервиса умного поиска">
-<type>setting</type>
-<enabled>true</enabled>
-</param>
-<param name="authBlockingScreen" description="Выводить клиенту врем, через которое будет доступен вход в МП, после блокировки 5-значного пароля">
-<type>setting</type>
-<enabled>true</enabled>
-</param>
-<param name="NotificationsEnableSuggestion" description="">
-<type>setting</type>
-<enabled>true</enabled>
-<periodInDays>1</periodInDays>
-</param>
-<param name="CreditCardInTransfersPermission" description="Управление запретом на использование кредитных карт в переводах p2p">
-<type>setting</type>
-<enabled>true</enabled>
-<nodes>
-<node id="node0.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="node1.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="node2.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="node3.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="node4.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="greenfield1.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="greenfield2.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="ift-node1-mp.testonline.sberbank.ru" description="Стенд ИФТ блок 1 (мобильный)">
-<enabled>true</enabled>
-</node>
-<node id="mobile.sberbank.ru" description="Стенд ПСИ">
-<enabled>true</enabled>
-</node>
-</nodes>
-</param>
-<param name="ChangeVisibilityProduct" description="Частичное скрытие продукта">
-<type>setting</type>
-<enabled>true</enabled>
-</param>
-<param name="gsHideDeposits" description="Полное скрытие депозитов">
-<type>setting</type>
-<enabled>true</enabled>
-</param>
-<param name="gsHideIMs" description="Полное скрытие металлических счетов">
-<type>setting</type>
-<enabled>true</enabled>
-</param>
-<param name="gsHideProducts" description="Полное скрытие карт">
-<type>setting</type>
-<enabled>true</enabled>
-</param>
-<param name="TariffDebitCard" description="Тариф карты">
-<type>service</type>
-<enabled>true</enabled>
-<link>
-https://stat.online.sberbank.ru/PhizIC-res/mapicfg/card_tariffs.xml
-</link>
-<nodes>
-<node id="node0.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="node1.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="node2.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="node3.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="node4.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="greenfield1.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="greenfield2.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="mobile.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="ift-node1.testonline.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="ift-node2.testonline.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="ift-node1-mp.testonline.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="ift-node2-mp.testonline.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="psinode2.testonline.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="psinode1.testonline.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="194.186.207.23">
-<enabled>true</enabled>
-</node>
-</nodes>
-</param>
-</params>
-</configuration>
+<param name="SelfEmployedV2" description="Сервис самозанят
