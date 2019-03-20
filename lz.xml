@@ -1,4 +1,3 @@
-<configuration>
 <params>
 <param name="CreditReportService" description="Отчет о кредитной истории">
 <type>setting</type>
