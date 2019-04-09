@@ -8258,7 +8258,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <forcedHistoryQuery>false</forcedHistoryQuery> 
 <forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory> 
 <nativePushProcessingEnabled>true</nativePushProcessingEnabled>
-<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
+<webUrlInUniversalPushNotification>false</webUrlInUniversalPushNotification>
 <cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
 <routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
