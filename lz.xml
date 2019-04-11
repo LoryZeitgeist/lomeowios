@@ -8254,7 +8254,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showUniversalPushNotification>true</showUniversalPushNotification>
-<getMessageHistoryRequestEnabled>false</getMessageHistoryRequestEnabled>
+<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
 <forcedHistoryQuery>false</forcedHistoryQuery> 
 <forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory> 
 <nativePushProcessingEnabled>true</nativePushProcessingEnabled>
